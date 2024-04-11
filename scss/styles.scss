@@ -1,0 +1,34 @@
+// 入口區
+// bootstrap rwd 文字
+@import '../scss_bs/vendor/rfs';
+
+// variables
+// @import '_variables.scss'; 
+@import 'variables'; // 引入時可省略副檔名 & 底線
+
+// 混合
+@import 'mixins/rwd';
+
+// 繼承 extend
+@import './extends/frame';
+
+// 全域相關設定
+@import 'global';
+
+// 區塊結構
+@import 'navbar';
+@import 'home';
+@import 'section01';
+@import 'section02';
+@import 'section03';
+@import 'section04';
+@import 'section05';
+@import 'footer';
+
+// 功能
+@import './features/modal';
+@import './features/swiper';
+@import './features/parallax';
+@import './features/backtop';
+@import './features/shooting_star';
+@import './features/splitText';
